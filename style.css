@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top-container{
+    background-color: yellow;
+    height: 80vh;
+}
+
+.smile-block{
+    padding-top: 10vh;
+    font-family: sans-serif;
+}
+
+.smile-block h1{
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    padding: 20px;
+}
+
+.smiley{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.smiley::before{
+    content: ":)";
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: rgba(81, 81, 81, 0.662);
+}
+ 
+.bottom-container{
+    height: 20vh;
+    background-color: rgb(255, 0, 30);
+    display: flex;
+    justify-content: center;
+}
+
+.triangle{
+    border-top: 3em solid yellow;
+    border-right: 10em solid transparent;
+    border-left: 10em solid transparent;
+    border-bottom: 3em solid transparent;
+}
